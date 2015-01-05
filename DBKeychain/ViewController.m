@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DBKeychainTool.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [DBKeychainTool saveValue:@"你好啊" forKey:@"test"];
+    
+    NSLog(@"%@",[DBKeychainTool getValueForKey:@"test"]);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
