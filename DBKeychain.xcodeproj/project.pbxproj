@@ -422,6 +422,7 @@
 				F7E846001A5A1FF800002BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7E846011A5A1FF800002BFC /* Build configuration list for PBXNativeTarget "DBKeychainTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				F7E846031A5A1FF800002BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
