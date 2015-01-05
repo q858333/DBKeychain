@@ -13,6 +13,10 @@
 //存数据
 +(void)saveValue:(id)value forKey:(NSString *)key;
 
+//取数据
++(id)getValueForKey:(NSString *)key;
 
+//删除数据
++(void)deleteValueForKey:(NSString *)key;
 
 @end
